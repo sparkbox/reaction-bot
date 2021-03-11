@@ -6,17 +6,17 @@ import (
 
 var registeredReactions = reactionbot.RegisteredReactions{
 	"gem": {
-		Name:    "Gem Me Bot",
-		Channel: "reaction-bot-testing",
+		Name:    "Gem",
+		Channel: "-gems",
 	},
 	"bulb": {
-		Name:    "TIL",
-		Channel: "reaction-bot-testing",
+		Name:    "Today I learned",
+		Channel: "til",
 	},
 	// Commonly used emoji to debug issue where multiple users who select the same emoji might
 	// cause the reaction to be posted multiple times.
 	"heart": {
-		Name:    "TIL",
+		Name:    "Reaction Bot Testing",
 		Channel: "reaction-bot-testing",
 	},
 }
