@@ -9,7 +9,7 @@ var registeredReactions = reactionbot.RegisteredReactions{
 		Name:    "Gem",
 		Channel: "-gems",
 	},
-	"bulb": {
+	"lightbulb": {
 		Name:    "Today I learned",
 		Channel: "til",
 	},
