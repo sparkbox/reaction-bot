@@ -15,13 +15,13 @@ go get
 To initialize, run:
 
 ```cli
-go run reaction-bot.go
+go run main.go
 ```
 
 To compile the binary, run:
 
 ```cli
-go build reaction-bot.go
+go build main.go
 ```
 
 ### Customizing

@@ -13,9 +13,7 @@ var registeredReactions = reactionbot.RegisteredReactions{
 		Name:    "Today I learned",
 		Channel: "til",
 	},
-	// Commonly used emoji to debug issue where multiple users who select the same emoji might
-	// cause the reaction to be posted multiple times.
-	"heart": {
+	"test_tube": {
 		Name:    "Reaction Bot Testing",
 		Channel: "reaction-bot-testing",
 	},
