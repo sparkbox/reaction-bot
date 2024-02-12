@@ -7,7 +7,7 @@ import (
 var registeredReactions = reactionbot.RegisteredReactions{
 	"gem": {
 		Name:    "Gem",
-		Channel: "-gems",
+		Channel: "gems",
 	},
 	"til": {
 		Name:    "Today I learned",
