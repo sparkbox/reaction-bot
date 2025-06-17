@@ -17,6 +17,10 @@ var registeredReactions = reactionbot.RegisteredReactions{
 		Name:    "Reaction Bot Testing",
 		Channel: "reaction-bot-testing",
 	},
+	"drum_with_drumsticks": {
+		Name:    "Dad Joke",
+		Channel: "dad-jokes",
+	},
 }
 
 func main() {
